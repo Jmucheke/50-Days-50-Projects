@@ -8,27 +8,21 @@
   crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
  
  <link rel="stylesheet" href="./styles/style.css">
- <title>Form Input  Wave</title>
+ <title>Event KeyCodes</title>
 </head>
 <body>
- <div class="container">
-  <h1>Please Login</h1>
-  <form>
-   <div class="form-control">
-    <input type="text" id="email" required>
-    <label for="email">Email</label>
-   </div>
-   <div class="form-control">
-    <input type="text" id="password" required>
-    <label for="password">Password</label>
-   </div>
+ <div id="insert">
+  <div class="key">
+   a
+   <small>event.key</small>
+  </div>
 
-   <button class="btn">Login</button>
+  <div class="key">65<small>event.KeyCode</small></div>
 
-   <p class="text">Don't have an account?
-   <a href="#">Register</a></p>
+  <div class="key">KeyA<small>event.code</small></div>
+  <div class="key">Press any key to get the KeyCode</div>
 
-  </form>
+
  </div>
 
  <script src="./js/script.js"></script>
