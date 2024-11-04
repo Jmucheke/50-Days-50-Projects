@@ -23,7 +23,7 @@ html.dark {
 }
 
 html.dark {
- --primary-color: #111;
+ background-color: #111;
  color: var(--primary-color);
 }
 
@@ -58,6 +58,7 @@ body {
  flex-direction: column;
  justify-content: space-between;
  align-items: center;
+ margin-top: 50px;
 }
 
 .clock {
